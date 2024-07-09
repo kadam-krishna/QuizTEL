@@ -3,6 +3,8 @@ const ansBtn = document.getElementById("ansBtn");
 const nextBtn = document.getElementById("nextBtn");
 
 let weeklyScore = document.getElementById("weeklyScore");
+// let resetWeekly = document.getElementById("resetWeekly-conatiner");
+// let resetWeeklyBtn = document.getElementById("resetWeekly");
 let currQuestionindex = 0;
 let score =0;
 console.log(questions);
@@ -18,12 +20,14 @@ function showQuestion() {
     let currQuestion = questions[currQuestionindex];
     let questionNo = currQuestionindex+1;
     questionElement.innerHTML = questionNo + ". " + currQuestion.question;
-    if( questionNo>1 && (questionNo - 1) %10 == 0){
+    if( questionNo==2){
         weeklyScore.style.display="inline-flex";
         weeklyScore.style.fontWeight = "bold";
         weeklyScore.innerText = `Week-${(questionNo - 1)/10} score: ${score}/10 marks`;
+        // resetWeekly.style.display="flex";
     }else{
         weeklyScore.style.display="none";
+        // resetWeekly.style.display="none";
     }
     //adding Question Details
     currQuestion.answers.forEach(answer =>{
