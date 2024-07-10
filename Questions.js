@@ -151,52 +151,52 @@ const questions = [
     },
     //Question
     {
-        question : "",
+        question : "The study of life history / general features of forest crops with respect to environmental factors is called",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "foresticulture",correct:false},
+            {text: "monoculture",correct:false},
+            {text: "silviculture",correct:false},
+            {text: "silvics",correct:true},
         ]
     },
     //Question
     {
-        question : "",
+        question : "Net primary productivity is given by",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "APAR + LUE",correct:false},
+            {text: "APAR x LUE",correct:true},
+            {text: "APAR - LUE",correct:false},
+            {text: "APAR ÷ LUE",correct:false},
         ]
     },
     //Question
     {
-        question : "",
+        question : "A climax caused by wildfires is an example of",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "climatic climax",correct:false},
+            {text: "edaphic climax",correct:false},
+            {text: "disclimax",correct:false},
+            {text: "catastrophic climax",correct:true},
         ]
     },
     //Question
     {
-        question : "",
+        question : "Practical application of scientific, technical and economic principles of forestry comes under which branch of forestry?",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "forest management",correct:true},
+            {text: "forest economics",correct:false},
+            {text: "forest mensuration",correct:false},
+            {text: "forest protection",correct:false},
         ]
     },
     //Question
     {
-        question : "",
+        question : "Which of these is abiotic factor?",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "vines",correct:false},
+            {text: "trees",correct:false},
+            {text: "reptiles",correct:false},
+            {text: "water",correct:true},
         ]
     },
     //Question

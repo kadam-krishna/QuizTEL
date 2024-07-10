@@ -7,14 +7,14 @@ let weeklyScore = document.getElementById("weeklyScore");
 // let resetWeeklyBtn = document.getElementById("resetWeekly");
 let currQuestionindex = 0;
 let score =0;
-console.log(questions);
+// console.log(questions);
 function startQuiz() {
     currQuestionindex=0;
     score = 0;
     nextBtn.innerHTML = "Next";
     showQuestion();
 } 
-
+let weeklyScoreDisplay = 0;
 function showQuestion() {
     resetQues();
     let currQuestion = questions[currQuestionindex];
@@ -23,7 +23,10 @@ function showQuestion() {
     if( questionNo>1 && (questionNo - 1)%10 ==0){
         weeklyScore.style.display="inline-flex";
         weeklyScore.style.fontWeight = "bold";
-        weeklyScore.innerText = `Week-${(questionNo - 1)/10} score: ${score}/10 marks`;
+        weeklyScore.innerText = `Week-${(questionNo-1)/10} score: ${score-weeklyScoreDisplay}/10 marks`;
+        // console.log(score);
+        // console.log(weeklyScoreDisplay);
+        weeklyScoreDisplay = score;
         // resetWeekly.style.display="flex";
     }else{
         weeklyScore.style.display="none";
