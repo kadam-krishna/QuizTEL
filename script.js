@@ -20,7 +20,7 @@ function showQuestion() {
     let currQuestion = questions[currQuestionindex];
     let questionNo = currQuestionindex+1;
     questionElement.innerHTML = questionNo + ". " + currQuestion.question;
-    if( questionNo==2){
+    if( questionNo>1 && (questionNo - 1)%10 ==0){
         weeklyScore.style.display="inline-flex";
         weeklyScore.style.fontWeight = "bold";
         weeklyScore.innerText = `Week-${(questionNo - 1)/10} score: ${score}/10 marks`;
