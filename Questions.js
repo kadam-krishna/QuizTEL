@@ -201,12 +201,162 @@ const questions = [
     },
     //Question
     {
-        question : "",
+        question : "Regur is a term for",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "black cotton soil",correct:true},
+            {text: "alluvial soil",correct:false},
+            {text: "saline soil",correct:false},
+            {text: "red and yellow soil",correct:false},
+        ]
+    },
+    //Question
+    {
+        question : "Carbonation is an example of",
+        answers : [
+            {text: "chemical weathering",correct:true},
+            {text: "physical weathering",correct:false},
+            {text: "none of the above",correct:false},
+            {text: "biological weathering",correct:false},
+        ]
+    },
+    //Question
+    {
+        question : "Bangar is a type of",
+        answers : [
+            {text: "red and yellow soil",correct:false},
+            {text: "black cotton soil",correct:false},
+            {text: "saline soil",correct:false},
+            {text: "alluvial soil",correct:true},
+        ]
+    },
+    //Question
+    {
+        question : "Cryofracturing is an example of",
+        answers : [
+            {text: "chemical weathering",correct:false},
+            {text: "physical weathering",correct:true},
+            {text: "biological weathering",correct:false},
+            {text: "none of the above",correct:false},
+        ]
+    },
+    //Question
+    {
+        question : "In soil profile, C refers to",
+        answers : [
+            {text: "organic surface layer",correct:false},
+            {text: "topsoil layer",correct:false},
+            {text: "subsoil layer",correct:false},
+            {text: "substratum layer",correct:true},
+        ]
+    },
+    //Question
+    {
+        question : "Vertical arrangement of soil horizons is called",
+        answers : [
+            {text: "soil texture",correct:false},
+            {text: "soil structure",correct:false},
+            {text: "soil profile",correct:true},
+            {text: "soil science",correct:false},
+        ]
+    },
+    //Question
+    {
+        question : "Thermal stresses lead to",
+        answers : [
+            {text: "chemical weathering",correct:false},
+            {text: "physical weathering",correct:true},
+            {text: "biological weathering",correct:false},
+            {text: "none of the above",correct:false},
+        ]
+    },
+    //Question
+    {
+        question : "Khadar is a type of",
+        answers : [
+            {text: "black cotton soil",correct:false},
+            {text: "saline soil",correct:false},
+            {text: "red and yellow soil",correct:false},
+            {text: "alluvial soil",correct:true},
+        ]
+    },
+    //Question
+    {
+        question : "Hydrolysis is an example of",
+        answers : [
+            {text: "chemical weathering",correct:true},
+            {text: "physical weathering",correct:false},
+            {text: "biological weathering",correct:false},
+            {text: "none of the above",correct:false},
+        ]
+    },
+    //Question
+    {
+        question : "Which of these has the highest organic matter content?",
+        answers : [
+            {text: "peaty soil",correct:true},
+            {text: "alluvial soil",correct:false},
+            {text: "saline soil",correct:false},
+            {text: "red and yellow soil",correct:false},
+        ]
+    },
+    //Question
+    {
+        question : "Measurement of height based on similar triangles comes under:",
+        answers : [
+            {text: "similar measurement",correct:false},
+            {text: "disimilar measurement",correct:false},
+            {text: "direct measurement",correct:false},
+            {text: "indirect measurement",correct:true},
+        ]
+    },
+    //Question
+    {
+        question : "For normal form factor, the reference for the base of the cylinder is",
+        answers : [
+            {text: "base of the tree",correct:false},
+            {text: "breast height",correct:false},
+            {text: "10% of tree height",correct:true},
+            {text: "20% of tree height",correct:false},
+        ]
+    },
+    //Question
+    {
+        question : "In a triangle, the angle between base and hypotenuse, θ = 60° and the hypotenuse c = 2 cm. Find the length of the base b.",
+        answers : [
+            {text: "0.33",correct:false},
+            {text: "0.5",correct:false},
+            {text: "0.75",correct:false},
+            {text: "1",correct:true},
+        ]
+    },
+    //Question
+    {
+        question : "3 trees are located in a sample plot of 15 m × 15 m. Their dbh are as under: dbh = 25 cm, 30 cm, 35 cm Find the stand basal area in sq m per Ha.",
+        answers : [
+            {text: "9.6",correct:true},
+            {text: "14.6",correct:false},
+            {text: "21.6",correct:false},
+            {text: "27.6",correct:false},
+        ]
+    },
+    //Question
+    {
+        question : "Consider a stand of eucalyptus trees that are on average 30 cm in diameter and spaced on a regular 3 m grid. Find the spacing factor.",
+        answers : [
+            {text: "5",correct:false},
+            {text: "10",correct:true},
+            {text: "15",correct:false},
+            {text: "data insufficient",correct:false},
+        ]
+    },
+    //Question
+    {
+        question : "For a tree with dbh = 45.6 cm, height = 27 m and total stem volume of 1.78 cum, the artificial form factor for the tree is:",
+        answers : [
+            {text: "0.1",correct:false},
+            {text: "0.2",correct:false},
+            {text: "0.3",correct:false},
+            {text: "0.4",correct:true},
         ]
     },
     //Question
@@ -221,292 +371,142 @@ const questions = [
     },
     //Question
     {
-        question : "",
+        question : "For absolute form factor, the reference for the base of the cylinder is",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "base of the tree",correct:true},
+            {text: "breast height",correct:false},
+            {text: "10% of tree height",correct:false},
+            {text: "20% of tree height",correct:false},
         ]
     },
     //Question
     {
-        question : "",
+        question : "Diameter over bark (dob), diameter under bark (dub) and bark thickness (tb) are related as:",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "dob = dub + tb",correct:false},
+            {text: "dob = dub - tb",correct:false},
+            {text: "dob = dub + 2 × tb",correct:true},
+            {text: "dob = dub - 2 × tb",correct:false},
         ]
     },
     //Question
     {
-        question : "",
+        question : "Choose the correct statement:",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "For a non-circular cross-section, girth tape over-estimates the sectional area.",correct:true},
+            {text: "For a non-circular cross-section, girth tape under-estimates the sectional area.",correct:false},
+            {text: "For a non-circular cross-section, girth tape correctly estimates the sectional area.",correct:false},
+            {text: "None of these is a correct statement.",correct:false},
         ]
     },
     //Question
     {
-        question : "",
+        question : "A tree has dbh of 25 cm. Find its basal area in sq m.",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: ".049",correct:true},
+            {text: ".096",correct:false},
+            {text: ".149",correct:false},
+            {text: ".195",correct:false},
         ]
     },
     //Question
     {
-        question : "",
+        question : "The frequency of flyovers is an indicator of",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "spatial resolution",correct:false},
+            {text: "temporal resolution",correct:true},
+            {text: "spectral resolution",correct:false},
+            {text: "radiometric resolution",correct:false},
         ]
     },
     //Question
     {
-        question : "",
+        question : "___ is how close the measured values are to the correct value.",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "Accuracy",correct:true},
+            {text: "Precision",correct:false},
+            {text: "Bias",correct:false},
+            {text: "Variance",correct:false},
         ]
     },
     //Question
     {
-        question : "",
+        question : "A list of sampling units is called a",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "frame",correct:true},
+            {text: "window",correct:false},
+            {text: "Sample",correct:false},
+            {text: "population",correct:false},
         ]
     },
     //Question
     {
-        question : "",
+        question : "“This sampling employs a simple rule of selecting every kth unit starting with a number chosen at random from 1 to k as the random start.” We're talking about",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "Simple random sampling",correct:false},
+            {text: "Systematic sampling",correct:true},
+            {text: "Stratified sampling",correct:false},
+            {text: "Multistage sampling",correct:false},
         ]
     },
     //Question
     {
-        question : "",
+        question : "Which of these is correct?",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "Plane surveying takes into account the true shape of the Earth and is used for smaller areas (< 250 sq km)",correct:false},
+            {text: "Plane surveying takes into account the true shape of the Earth and is used for larger areas (> 250 sq km)",correct:false},
+            {text: "Geodetic surveying takes into account the true shape of the Earth and is used for smaller areas (< 250 sq km)",correct:false},
+            {text: "Geodetic surveying takes into account the true shape of the Earth and is used for larger areas (> 250 sq km)",correct:true},
         ]
     },
     //Question
     {
-        question : "",
+        question : "A sampling procedure such that each possible combination of sampling units out of the population has the same chance of being selected is referred to as",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "Systematic sampling",correct:false},
+            {text: "Simple random sampling",correct:true},
+            {text: "Stratified sampling",correct:false},
+            {text: "Multistage sampling",correct:false},
         ]
     },
     //Question
     {
-        question : "",
+        question : "Bathymetric LiDAR uses",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "far infrared light",correct:false},
+            {text: "near infrared light",correct:false},
+            {text: "orange light",correct:false},
+            {text: "green light",correct:true},
         ]
     },
     //Question
     {
-        question : "",
+        question : "IMU stands for",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "Imperial metering unit",correct:false},
+            {text: "Inertial metering unit",correct:false},
+            {text: "Imperial measurement unit",correct:false},
+            {text: "Inertial measurement unit",correct:true},
         ]
     },
     //Question
     {
-        question : "",
+        question : "___ is how close the measured values are to each other.",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "Accuracy",correct:false},
+            {text: "Precision",correct:true},
+            {text: "Bias",correct:false},
+            {text: "Variance",correct:false},
         ]
     },
     //Question
     {
-        question : "",
+        question : "The time of flight for LiDAR is 0.00001 sec. Find the distance of the object from the instrument.",
         answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-        ]
-    },
-    //Question
-    {
-        question : "",
-        answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-        ]
-    },
-    //Question
-    {
-        question : "",
-        answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-        ]
-    },
-    //Question
-    {
-        question : "",
-        answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-        ]
-    },
-    //Question
-    {
-        question : "",
-        answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-        ]
-    },
-    //Question
-    {
-        question : "",
-        answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-        ]
-    },
-    //Question
-    {
-        question : "",
-        answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-        ]
-    },
-    //Question
-    {
-        question : "",
-        answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-        ]
-    },
-    //Question
-    {
-        question : "",
-        answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-        ]
-    },
-    //Question
-    {
-        question : "",
-        answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-        ]
-    },
-    //Question
-    {
-        question : "",
-        answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-        ]
-    },
-    //Question
-    {
-        question : "",
-        answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-        ]
-    },
-    //Question
-    {
-        question : "",
-        answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-        ]
-    },
-    //Question
-    {
-        question : "",
-        answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-        ]
-    },
-    //Question
-    {
-        question : "",
-        answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-        ]
-    },
-    //Question
-    {
-        question : "",
-        answers : [
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
-            {text: "",correct:false},
+            {text: "500 m",correct:false},
+            {text: "1000 m",correct:false},
+            {text: "1500 m",correct:false},
+            {text: "2000 m",correct:false},
         ]
     },
     //Question
