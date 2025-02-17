@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizTEL</title>
+    <link rel="icon" type="image/png" href="/QuizTEL/Assets/favicon.png ">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <button id="scrolltoTop" onclick="topFunction()" type="button" style="color: white;background-color: #18181B;font-size: 25px;">&#8593;</button>
+        <section class="quiz">
+
+            <form class="quiz-form">
+                <div class="question">
+                    <p>1. "Enquiry into plants" is a book written by?</p>
+                    <div class="option">
+                        <input type="radio" name="q1" id="q1a" value="A">
+                        <label for="q1a">Theophrastus</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" id="q1b" value="B">
+                        <label for="q1b">Linnaeus</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" id="q1c" value="C">
+                        <label for="q1c">Malthus</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" id="q1d" value="D">
+                        <label for="q1d">Humboldt</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q1" id="q1e" value="E" checked>
+                        <label for="q1e">Hidden</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>2. The mitochondrion is a / an?</p>
+                    <div class="option">
+                        <input type="radio" name="q2" id="q2a" value="A">
+                        <label for="q2a">Sub-cellular organelle</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" id="q2b" value="B">
+                        <label for="q2b">Cell</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" id="q2c" value="C">
+                        <label for="q2c">Tissue</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" id="q2d" value="D">
+                        <label for="q2d">Organ</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q2" id="q2e" value="E" checked>
+                        <label for="q2e">Hidden</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>3. Which of these is not a pillar of sustainability?</p>
+                    <div class="option">
+                        <input type="radio" name="q3" id="q3a" value="A">
+                        <label for="q3a">Environmental sustainability</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" id="q3b" value="B">
+                        <label for="q3b">Economic sustainability</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" id="q3c" value="C">
+                        <label for="q3c">Trans-boundary sustainability</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" id="q3d" value="D">
+                        <label for="q3d">Social sustainability</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q3" id="q3e" value="E" checked>
+                        <label for="q3e">Hidden</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>4. Good climate is a?</p>
+                    <div class="option">
+                        <input type="radio" name="q4" id="q4a" value="A">
+                        <label for="q4a">Chemical factor</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" id="q4b" value="B">
+                        <label for="q4b">Demographic factor</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" id="q4c" value="C">
+                        <label for="q4c">Push factor</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" id="q4d" value="D">
+                        <label for="q4d">Pull factor</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q4" id="q4e" value="E" checked>
+                        <label for="q4e">Hidden</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>5. Importance value varies from?</p>
+                    <div class="option">
+                        <input type="radio" name="q5" id="q5a" value="A">
+                        <label for="q5a">0 to 10</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" id="q5b" value="B">
+                        <label for="q5b">0 to 50</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" id="q5c" value="C">
+                        <label for="q5c">0 to 100</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" id="q5d" value="D">
+                        <label for="q5d">0 to 300</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q5" id="q5e" value="E" checked>
+                        <label for="q5e">Hidden</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>6. Consider the food chain: Grass → Grasshopper → Frog → Snake → Hawk. In this food chain:</p>
+                    <div class="option">
+                        <input type="radio" name="q6" id="q6a" value="A">
+                        <label for="q6a">Frog is producer</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q6" id="q6b" value="B">
+                        <label for="q6b">Frog is consumer and carnivore</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q6" id="q6c" value="C">
+                        <label for="q6c">Frog is consumer and herbivore</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q6" id="q6d" value="D">
+                        <label for="q6d">Frog is decomposer</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q6" id="q6e" value="E" checked>
+                        <label for="q6e">Hidden</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>7. The juvenile mortality rate is the annual number of deaths of juveniles per?</p>
+                    <div class="option">
+                        <input type="radio" name="q7" id="q7a" value="A">
+                        <label for="q7a">100 births</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q7" id="q7b" value="B">
+                        <label for="q7b">1000 births</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q7" id="q7c" value="C">
+                        <label for="q7c">100 live births</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q7" id="q7d" value="D">
+                        <label for="q7d">1000 live births</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q7" id="q7e" value="E" checked>
+                        <label for="q7e">Hidden</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>8. Because of climate change, Mudumalai Tiger Reserve is suffering from frequent droughts. The management has built several artificial water holes for animals, and fills them up regularly with tankers. In the context of climate change, such an action would be called?</p>
+                    <div class="option">
+                        <input type="radio" name="q8" id="q8a" value="A">
+                        <label for="q8a">Adaptation</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q8" id="q8b" value="B">
+                        <label for="q8b">Mitigation</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q8" id="q8c" value="C">
+                        <label for="q8c">Deceleration</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q8" id="q8d" value="D">
+                        <label for="q8d">Maladaptation</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q8" id="q8e" value="E" checked>
+                        <label for="q8e">Hidden</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>9. The scientific study of animal behaviour is called?</p>
+                    <div class="option">
+                        <input type="radio" name="q9" id="q9a" value="A">
+                        <label for="q9a">Behaviourism</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q9" id="q9b" value="B">
+                        <label for="q9b">Ecology</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q9" id="q9c" value="C">
+                        <label for="q9c">Ethology</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q9" id="q9d" value="D">
+                        <label for="q9d">Prey-predator dynamics</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q9" id="q9e" value="E" checked>
+                        <label for="q9e">Hidden</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>10. Zoo is an example of?</p>
+                    <div class="option">
+                        <input type="radio" name="q10" id="q10a" value="A">
+                        <label for="q10a">In-situ conservation</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q10" id="q10b" value="B">
+                        <label for="q10b">Ex-situ conservation</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q10" id="q10c" value="C">
+                        <label for="q10c">In-situ preservation</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q10" id="q10d" value="D">
+                        <label for="q10d">Ex-situ preservation</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q10" id="q10e" value="E" checked>
+                        <label for="q10e">Hidden</label>
+                    </div>
+                </div>
+                
+                
+
+                <div class="result hide">
+                    <div class="message" id="message"></div>
+                    <p></p>
+                    <p class="reload">
+                        <button onclick="document.location.reload(true)">Try Again?</button>
+                    </p>
+                </div>
+
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
