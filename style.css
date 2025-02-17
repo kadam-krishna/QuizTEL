@@ -1,115 +1,91 @@
-*{
+body {
+    font-family: Arial, sans-serif;
+    background-color: #18181d;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
-}
-
-body{
-    background-color:#8ec5fc;
-    background-image:linear-gradient(62deg,#8ec5fc 0%,#e0c3fc 100%)
-}
-
-.container{
-    background: whitesmoke;
-    width: 90%;
-    max-width: 600px;
-    margin: 100px auto 0;
-    border-radius: 12px;
-    padding: 24px;
-}
-
-.container h1{
-    font-size: 25px;
-    color: #001e4d;
-    font-weight: 600;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #333;
-}
-
-.quiz{
-    padding: 20px 0;
-}
-
-.quiz h2{
-    font-size: 18px;
-    color: #001e4d;
-    font-weight: 600;
-}
-
-.option{
-    background: whitesmoke;
-    color: #222222;
-    font-weight: 500;
-    width: 100%;
-    border: 1px solid #222222;
-    padding: 10px;
-    margin: 10px 0;
-    text-align: left;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all .3s;
-}
-.option:hover:not([disabled]){
-    background: #222222;
-    color: whitesmoke ;
-}
-.option:disabled{
-    cursor: no-drop;
-}
-
-#nextBtn{
-    background: #001e4d;
-    color: whitesmoke;
-    font-size: 18px;
-    font-weight: 500;
-    width: 150px;
-    border: 0;
-    padding: 10px;
-    margin: 20px auto 0;
-    border-radius: 4px;
-    cursor: pointer;
-    display: none;
-    justify-content: center;
-    align-items: center;
-}
-
-.correct{
-    background-color: rgb(121, 218, 121);
-}
-.Incorrect{
-    background-color: rgb(232, 81, 81);
-}
-.weekContainer{
     display: flex;
     justify-content: center;
-    text-align: center;
     align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: #fff;
 }
-#weeklyScore{
-    display: none;
-    margin-top: 2rem;
-    height: 2rem;
-    justify-content: center;
+
+h1 {
+    color: #fff;
     text-align: center;
-    align-items: center;
-    /* background-color:#8ec5fc; */
-    font-weight: 500;
-    font-size: 20px;
-    color: #001e4d;
 }
-#Week_Reset{
-    background: #001e4d;
+h1 {
+    color: #2980b9; 
+    text-align: center;
+}
+
+p {
+    color: #ecf0f1; 
+    text-align: center;
+    font-size: 1.2rem;
+}
+.description {
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(45deg, #18181B, #3c3c3f);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
     color: whitesmoke;
-    font-size: 18px;
-    font-weight: 500;
-    width: 150px;
-    border: 0;
-    padding: 10px;
-    margin: 20px auto 0;
-    border-radius: 4px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.card {
+    background: linear-gradient(45deg, #18181B, #3c3c3f);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #333;
+    text-decoration: none; 
+    padding: 15px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    color: #2c3e50;
+}
+
+.card p {
+    color: #7f8c8d;
+}
+
+.card:hover h3,
+.card:hover p {
+    color: #3a7eac; 
+}
+
+.card {
     cursor: pointer;
-    display: none;
-    justify-content: center;
-    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
 }
