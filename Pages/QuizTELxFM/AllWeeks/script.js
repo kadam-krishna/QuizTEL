@@ -1,5 +1,5 @@
-const correctAnswer =  ["D", "B", "C", "B", "D", "A", "B", "D", "A", "B", "A", "C", "B", "C", "D", "C", "B", "C", "A", "C", "C","B","D", "B"];
-const correctOptions = ["D", "B", "C", "B", "D", "A", "B", "D", "A", "B", "A", "C", "B", "C", "D", "C", "B", "C", "A", "C", "C","B","D", "B"];
+const correctAnswer =  ["D", "A", "D", "D", "D", "D", "A", "B", "A", "A","B", "A", "A", "D", "D", "B", "A", "B", "C", "C", "B", "B", "D", "A", "B", "D", "B", "A", "B", "A", "A", "C", "A", "D", "D", "B", "C", "B", "A", "A", "B", "D", "A", "A", "C", "D", "A", "B", "B", "D",];
+const correctOptions = ["D", "A", "D", "D", "D", "D", "A", "B", "A", "A","B", "A", "A", "D", "D", "B", "A", "B", "C", "C", "B", "B", "D", "A", "B", "D", "B", "A", "B", "A", "A", "C", "A", "D", "D", "B", "C", "B", "A", "A", "B", "D", "A", "A", "C", "D", "A", "B", "B", "D",];
 const form = document.querySelector(".quiz-form");
 const result = document.querySelector(".result");
 const radios = document.querySelectorAll('input[type="radio"]');
