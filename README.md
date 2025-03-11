@@ -11,8 +11,8 @@ Welcome to **[QuizTEL](https://quiztel.vercel.app/)**, a web-based quiz platform
 
 ## 🎨 Technologies Used
 
-- **HTML** - Structuring the content
-- **CSS** - Styling and layout
+- **HTML** - Structuring the content.
+- **CSS** - Styling and layout.
 - **JavaScript** - Tracking scores.
 
 ## 📌 Usage
