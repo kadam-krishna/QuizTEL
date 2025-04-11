@@ -1,6 +1,6 @@
 # QuizTEL
 
-Welcome to **QuizTEL**, a web-based quiz platform designed to help users prepare for their **NPTEL FAT** (Final Assessment Test). The platform provides **12 quizzes**, covering **weeks 1 to 12** of the course.
+Welcome to **[QuizTEL](https://quiztel.vercel.app/)**, a web-based quiz platform designed to help users prepare for their **NPTEL FAT** (Final Assessment Test). The platform provides **12 quizzes**, covering **weeks 1 to 12** of the course.
 
 
 ## 📜 Features
@@ -11,8 +11,8 @@ Welcome to **QuizTEL**, a web-based quiz platform designed to help users prepare
 
 ## 🎨 Technologies Used
 
-- **HTML** - Structuring the content
-- **CSS** - Styling and layout
+- **HTML** - Structuring the content.
+- **CSS** - Styling and layout.
 - **JavaScript** - Tracking scores.
 
 ## 📌 Usage
@@ -25,7 +25,15 @@ Welcome to **QuizTEL**, a web-based quiz platform designed to help users prepare
 
 
 ## 🖼️ Screenshots
+<<<<<<< HEAD
 ![App Screenshot](./Assets/)
+=======
+![Home](./Assets/Home.png)
+>>>>>>> a0aedeecc8a355901d978a9ee84bf6e7bc6b7a90
 
-## 📖 License
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+![Weeks](./Assets/Weeks.png)
+
+![Quiz](./Assets/Quiz.png)
+
+## 📖 Badges
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
