@@ -25,7 +25,7 @@ Welcome to **QuizTEL**, a web-based quiz platform designed to help users prepare
 
 
 ## 🖼️ Screenshots
-(Replace with an actual screenshot)
+![App Screenshot](./Assets/)
 
 ## 📖 License
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
