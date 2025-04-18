@@ -1,5 +1,5 @@
-const correctAnswer =  ["D", "B", "C", "B", "D", "A", "B", "D", "A", "B", "A", "C", "B", "C", "D", "C", "B", "C", "A", "C", "C","B","D", "B"];
-const correctOptions = ["D", "B", "C", "B", "D", "A", "B", "D", "A", "B", "A", "C", "B", "C", "D", "C", "B", "C", "A", "C", "C","B","D", "B"];
+const correctAnswer =  ["B","B","B","C","B","A","C","D","B","C"];
+const correctOptions = ["B","B","B","C","B","A","C","D","B","C"];
 const form = document.querySelector(".quiz-form");
 const result = document.querySelector(".result");
 const radios = document.querySelectorAll('input[type="radio"]');
